@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Company Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <!-- Each product should have three sections.
+5. The first section should contain three child block elements.
+The first element contains the product image.
+The second element contains the product description.
+The third element contains the product availability (e.g. "Available" or "Not Available")
+6.The second section contains product specifications.
+This section should have a header containing the word "Specifications"
+This section should contain two block elements
+The first block element specifies the size.
+The second block element specifies the weight.
+This section should contain a footer.
+The footer contains text stating when the product specifications become invalid.
+7.The third section contains the product pricing.
+This section should contain a header.
+This section should contain three block elements.
+Each block element contains information about the price for different quantities.
+ -->
+ 
+ <div class="flex-container">
+    <article><!--1. Each card should be an article.-->
+        <header><h2>product no 1</h2></header>
+        <!-- three child block elements.--> 
+        <section>  <!--section#1-->
+            <figure>
+                <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+            </figure>
+            <div>
+                <p>description</p>
+            </div>
+            <div>
+                    <p>available</p>
+            </div>     
+        </section>
+        <section><!--section#2-->
+            <header>
+                <h3>Specifications</h3>
+            </header>
+                <p></p>
+                <p></p>
+            <footer>
+                <p>invalid</p>
+            </footer>
+        </section>
+        <section><!--section#3-->
+            <header>
+                <h3> Product pricing</h3><!--7.The third section contains the product pricing.-->
+            </header>
+                <p></p>
+                <p></p>
+                <p></p>
+        </section>
+    </article><!--end of product 1-->
+    <article>
+        <header>
+            <h2> product no 2</h2>
+        </header>
+        <section>
+            <figure>
+                <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+            </figure>
+        </section>
+    </article><!--end of product 2-->
+    <article><header>
+            <h2> product no 3</h2>
+        </header>
+    </article><!--end of product 3-->
+    <article>
+        <header>
+            <h2> product no 4</h2>
+        </header>
+    </article><!--end of product 4-->
+    <article>
+            <header>
+                <h2> product no 5</h2>
+            </header>
+    </article><!--end of product 5-->
+    <article>
+            <header>
+                    <h2> product no 6</h2>
+                </header>
+    </article><!--end of product 6-->
+</div><!--class="flex-container"-->
+<footer></footer>
+</body>
+</html>

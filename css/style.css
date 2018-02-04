@@ -1,0 +1,46 @@
+
+/*Each card should take up 30% of the width of the browser window.*/
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+.flex-container > article {
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 10px  auto;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+  }
+/*Requirements
+Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards.
+
+
+2. Each card should take up 30% of the width of the browser window.
+3. Each product should contain a header element that, itself, contains an h2 element where the product's title will be written.
+4. Each product should have three sections.
+5. The first section should contain three child block elements.
+6. The first element contains the product image.
+7. The second element contains the product description.
+8. The third element contains the product availability (e.g. "Available" or "Not Available")
+9. The second section contains product specifications.
+10.This section should have a header containing the word "Specifications"
+11. This section should contain two block elements
+12. The first block element specifies the size.
+13. The second block element specifies the weight.
+14. This section should contain a footer.
+15. The footer contains text stating when the product specifications become invalid.
+16. The third section contains the product pricing.
+17. This section should contain a header.
+18. This section should contain three block elements.
+19.Each block element contains information about the price for different quantities.
+
+Additional style requirements
+1. The entire card has a solid 1px border that is lightblue.
+2. The card title has a dotted 1px border that is lightgray.
+3. The title and product image are centered.
+4. Notice that the text for the description in the image is justified.
+5. The text for the product specification details and pricing details is bold.
+6. The availability element extends the full width of the card, with a dark grey background and yellow text.*/
