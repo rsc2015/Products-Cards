@@ -1,3 +1,5 @@
+### Products-Cards
+---------------------------------------------
 [Build a grid of cards for a company's products](https://github.com/nashville-software-school/ux-developer-milestones/blob/master/1-the-static-web/learning-materials/HTML_CSS_PRODUCT_CARDS.md)
 
 -----------------------
@@ -32,4 +34,4 @@ The second element contains the product description.
 - [x] The text for the product specification details and pricing details is bold.
 - [ ] The availability element extends the full width of the card, with a dark grey background and yellow text.
 
-#### Products-Cards
+
