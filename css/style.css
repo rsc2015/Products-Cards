@@ -3,17 +3,42 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
-  }
-.flex-container > article {
-    background-color: #f1f1f1;
-    width: 30%;
-    margin: 10px  auto;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    background-color: rgb(239, 243, 247);
     
   }
+
+.flex-container > article {
+    background-color: #ffffff;
+    width: 30%;
+    margin: 10px  auto;
+    /* 1.The entire card has a solid 1px border that is lightblue.*/
+    border-style: solid;
+    border-color:lightblue;
+    border-width: 1px;
+    /*text-align: center;
+    line-height: 75px;
+    font-size: 30px;*/
+}
+
+header > h2 {
+    /*2. The card title has a dotted 1px border that is lightgray.*/
+    border-bottom: 1px dotted lightgray;
+    /*3. The title and product image are centered.*/
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header > h3 {
+    /*5. The text for the product specification details and pricing details is bold.*/
+    font-weight: bold;
+
+}
+
+
+ 
 /*Requirements
 Your task is to build a grid of cards for a company's products. Here are the requirements for the basic structure of the cards.
 
